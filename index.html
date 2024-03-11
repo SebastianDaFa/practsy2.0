@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        
+        <div class="icono">
+            <a href="#" class="icono"><img src="img/logo.jpeg" alt=""><h1 class="titulo">PRACTSY 2.0</h1></a>
+        </div>
+        
+        <div class="bars__menu">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+        </div>
+  
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a href="#parallax-header" class="a">Inicio</a></li>
+                <li class="li"><a href="#cajagrande" class="a">Nosotros</a></li>
+                <li class="li"><a href="#contlink" class="a">Cursos</a></li>
+                <li class="li"><a href="#contimportancia" class="a">Importancia</a></li>
+            </ul>
+        </nav>
+          <div id="iconos">
+              <nav>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/3158108561?text=Hola%2C%20quiero%20hacer%20una%20consulta"><i class="fab fa-whatsapp"></i></a>
+              </nav>
+            </div>
+    </header>
+    <main>
+    <section id="parallax-header">
+        <div class="bg">
+          <img src="/img/fondo.jpg" alt="Fondo del encabezado">
+        </div>
+        <div class="content scale-up-bottom">
+          <h1>PRACTSY 2.0</h1>
+          <p>El mejor lugar para aprender a programar</p>
+        </div>
+        
+      </section>
+      <div class="navigation">
+        <div class="toggle"></div>
+        <ul>
+           <li><a href="#parallax-header">
+            <span class="iconos2"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+            </span>
+            <span class="navegacion">Inicio de pagina</span>
+           </a></li> 
+           <li><a href="#cajagrande">
+            <span class="iconos2"><i class="fa fa-users" aria-hidden="true"></i>
+            </span>
+            <span class="navegacion">Nosotros</span>
+           </a></li> 
+           <li><a href="#contlink">
+            <span class="iconos2"><i class="fa fa-bookmark" aria-hidden="true"></i>
+            </span>
+            <span class="navegacion">Cursos</span>
+           </a></li> 
+           <li><a href="#contimportancia">
+            <span class="iconos2"><i class="fa fa-info" aria-hidden="true"></i>
+            </span>
+            <span class="navegacion">Importancia</span>
+           </a></li> 
+        </ul>
+      </div>
+
+
+      <section id="cajagrande">
+        <form id="notalogeo">
+            <div>
+            <h2>ENVIANOS TUS SUGERENCIAS</h2>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="email" id="correo" placeholder="Correo">
+            <input type="text" id="comentario" placeholder="Dejanos tu comentario">
+            <div id="oinicia">
+              <p>o <nav><a href="">Inicia sesion</a>, tambien puedes <a href=""></nav>Registrarte</a></p>
+            </div>
+          </div>
+        </form>
+          
+          <section id="empieza">
+              <h2>Empieza a programar con la mejor eleccion, <a href="">nosotros</a></h2>
+              <p id="empieza">¿Buscas una plataforma que te ofrezca cursos de calidad, ejercicios prácticos y tutoriales interactivos? Entonces, estás en el lugar correcto.</p>
+              <section id="btnregistro1"><a href=""><button id="">REGISTRATE AHORA</button></a></section>
+            </section>
+          </section>
+
+
+          <section id="cajagrande2">
+            <article id="video">
+            <video controls >
+              <source id="video" src="/img/y2mate.com - Aprende a programar ahora  curso de introducción a la programación desde CERO_480p.mp4" type="video/mp4">
+              Tu navegador no soporta el elemento video.
+            </video>
+          </article>
+          <h2 id="">Con mas de miles de tutoriales en el alcance de tus manos a un solo <a href="">click</a></h2>
+          <p>¿Te interesa formar parte de una comunidad de aprendizaje activa y colaborativa? Entonces, estás en el sitio web adecuado. Aquí encontrarás más de mil tutoriales sobre programación, que abarcan desde los conceptos básicos hasta los más avanzados.</p>
+          <button id="btnregistro2" onclick="playVideo()">INICIAR VIDEO</button>
+        </section>
+
+
+
+        <section id="cajacartas">
+          <div class="carta" id="contlink">
+            <h2>JAVASCRIPT</h2>
+            <div class="img-carta">
+              <img src="/img/javascript.png" id="" alt="">
+            </div>
+            <div class="contenido" id="">
+              <p>JavaScript es un lenguaje de programación que permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que simplemente sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de gráficos 2D/3D, desplazamiento de máquinas reproductoras de video, etc., puedes apostar que probablemente JavaScript está involucrado.</p>
+            </div>
+          </div>
+          <div class="carta">
+            <h2>CSS</h2>
+            <div class="img-carta">
+              <img src="/img/css.png" alt="">
+            </div>
+            <div class="contenido">
+              <p>CSS es el lenguaje que usamos para diseñar y dar estilo a nuestros sitios web. CSS maneja el aspecto visual de la web. Es usado para definir estilos para las páginas web, incluyendo el diseño, el diseño y las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla.</p>
+            </div>
+          </div>
+          <div class="carta">
+            <h2>HTML</h2>
+            <div class="img-carta">
+              <img src="/img/html.png" alt="">
+            </div>
+            <div class="contenido">
+              <p>HTML (HyperText Markup Language) no es un lenguaje de programación, es un lenguaje de marcado que se utiliza para crear la estructura de las páginas web. Con HTML, puedes crear tu propio sitio web. HTML es fácil de aprender y entender, no necesitas comprar ningún software y puedes ejecutarlo en cualquier plataforma (Windows, Mac, Linux, Android, iOS, etc.).</p>
+            </div>
+          </div>
+          <div class="carta">
+            <h2>PYTHON</h2>
+            <div class="img-carta">
+              <img src="/img/python.png" alt="">
+            </div>
+            <div class="contenido">
+              <p>Python es un lenguaje de programación de alto nivel, interpretado, interactivo y orientado a objetos. Python es diseñado para ser altamente legible. Utiliza palabras clave en inglés frecuentemente donde otros lenguajes usan puntuación, y tiene menos estructuras sintácticas que las otras lenguajes.</p>
+            </div>
+          </div>
+        </section>
+        
+
+
+        <section id="contimportancia">
+          <div class="container">
+            <h2>La importancia de la programación en la actualidad</h2>
+            <p>La programación es el proceso de crear instrucciones que le dicen a una computadora qué hacer. La programación se usa para crear todo tipo de aplicaciones, desde videojuegos, redes sociales, páginas web, hasta inteligencia artificial, realidad virtual y robótica. La programación es una habilidad muy valiosa en el mundo actual, ya que nos permite resolver problemas, crear soluciones, expresar nuestra creatividad y comunicarnos con otros. La programación también tiene beneficios en todas las edades, como:</p>
+            <ul>
+              <li>Desarrollar el pensamiento lógico, crítico y analítico.</li>
+              <li>Mejorar la concentración, la memoria y la atención.</li>
+              <li>Fomentar la curiosidad, la innovación y el aprendizaje continuo.</li>
+              <li>Ampliar las oportunidades laborales, educativas y personales.</li>
+            </ul>
+            <p>En esta sesión, te mostraremos algunos ejemplos de cómo la programación se aplica en diferentes áreas y contextos, y cómo puedes empezar a aprender a programar de forma fácil y divertida. También te enseñaremos algunos recursos y herramientas que te ayudarán en tu camino como programador o programadora.</p>
+            <div class="swiper" id="swiperimg">
+              <div class="swiper-wrapper" >
+                <div class="swiper-slide"><img id="imgslider" src="/img/programando.jpeg" alt=""></div>
+                <div class="swiper-slide"><img id="imgslider" src="/img/jscode.jpeg" alt=""></div>
+                <div class="swiper-slide"><img id="imgslider" src="/img/pythoncode.jpg" alt=""></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            
+              <div class="swiper-scrollbar"></div>
+            </div>
+            <p>Si quieres saber más sobre la importancia de la programación en la actualidad, puedes consultar estos enlaces:</p>
+            <nav>
+              <ul>
+                <li><a href="https://www.bbc.com/mundo/noticias-40914948">¿Por qué es importante que los niños aprendan a programar?</a></li>
+                <li><a href="https://www.educaciontrespuntocero.com/recursos/por-que-aprender-a-programar/">10 razones por las que aprender a programar</a></li>
+                <li><a href="https://www.lavanguardia.com/tecnologia/20190506/462021757988/programacion-lenguaje-futuro.html">La programación, el lenguaje del futuro</a></li>
+              </ul>
+          </nav>
+          </div>
+        </section>
+
+      <section>
+        <div class="swiper" id="importancia">
+          <h2>MAS INFOMRACION SOBRE CURSOS</h2>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><video controls>
+              <source src="/img/Aprende Python - Curso de Python desde Cero.mp4" type="video/mp4">
+              Tu navegador no soporta el elemento video.
+            </video>
+            <div>Python es un lenguaje de programación de alto nivel, versátil y fácil de leer. Python se puede usar para una variedad de campos, como ciencia de datos, aprendizaje automático, desarrollo web, automatización, etc. Python tiene una sintaxis simple y clara, y una gran comunidad que ofrece muchos recursos y bibliotecas. Python se puede aprender con cursos como [Python for Everybody] de Coursera.</div>
+            </div>
+            <div class="swiper-slide"><video controls>
+              <source src="/img/videoplayback.mp4" type="video/mp4">
+              Tu navegador no soporta el elemento video.
+            </video>
+              <div>JavaScript es un lenguaje de programación que se ejecuta en el navegador y permite crear páginas web dinámicas e interactivas[^3^][5]. JavaScript se puede usar para manipular el HTML y el CSS, agregar efectos, validar formularios, crear juegos, animaciones, aplicaciones web, etc. JavaScript es uno de los lenguajes más populares y demandados en el mundo web, y se puede aprender con cursos como [Learn JavaScript] de Codecademy.</div>
+              </div>
+              <div class="swiper-slide"><video controls>
+                <source src="/img/CSS desde cero _ Curso tutorial completo gratis por Sergie Code.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento video.
+              </video>
+                <div>CSS es un lenguaje de estilo que se usa para definir la apariencia y el formato de las páginas web creadas con HTML. CSS permite separar el contenido del diseño, y ofrece una gran flexibilidad y control sobre el aspecto visual de las páginas web. Con CSS se puede modificar el color, la fuente, el tamaño, el fondo, el borde, el margen, el posicionamiento, la animación, la transición, el diseño responsivo y muchos otros aspectos de los elementos HTML. </div>
+                </div>
+                <div class="swiper-slide"><video controls>
+                  <source src="/img/y2mate.com - Aprende HTML ahora curso completo GRATIS desde cero_360p.mp4" type="video/mp4">
+                  Tu navegador no soporta el elemento video.
+                </video>
+                  <div>HTML significa HyperText Markup Language y es el lenguaje estándar para crear páginas web[^2^][2]. HTML usa etiquetas para definir la estructura y el contenido de un documento web, como texto, imágenes, enlaces, formularios, etc. HTML es fácil de aprender y se puede combinar con otros lenguajes como CSS y JavaScript para crear sitios web dinámicos e interactivos.</div>
+                  </div>
+                  <div class="swiper-slide"><video controls>
+                    <source src="/img/Cómo Crear y Diseñar una PÁGINA WEB Paso a Paso _ CURSO DISEÑO WEB _ Adobe XD ✅.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento video.
+                  </video>
+                    <div>HTML significa HyperText Markup Language y es el lenguaje estándar para crear páginas web[^2^][2]. HTML usa etiquetas para definir la estructura y el contenido de un documento web, como texto, imágenes, enlaces, formularios, etc. HTML es fácil de aprender y se puede combinar con otros lenguajes como CSS y JavaScript para crear sitios web dinámicos e interactivos.</div>
+                    </div>
+          </div>
+        
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+
+
+
+      <section id="contform">
+        <div class="contenedor-formulario"> 
+          <h1>Formulario de pago</h1>
+          <form class="formulario-pago" method="" action=""> 
+              <label for="" class="etiqueta-campo">Nombre:</label> 
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required class="campo-dato"> 
+              <label for="" class="etiqueta-campo">Dirección:</label> 
+              <input type="text" id="direccion" name="direccion" placeholder="Calle, número, ciudad, país" required class="campo-dato"> 
+              <label for="" class="etiqueta-campo">Email:</label> 
+              <input type="email" id="email" name="email" placeholder="email@email.com" required class="campo-dato"> 
+              <label for="" class="etiqueta-campo">Curso:</label> 
+              <select id="curso" name="curso" required class="campo-dato"> 
+                  <option value="">Selecciona un curso</option>
+                  <option value="html">HTML</option>
+                  <option value="css">CSS</option>
+                  <option value="javascript">JavaScript</option>
+              </select>
+              <label for="" class="etiqueta-campo">Número de tarjeta:</label>
+              <input type="text" id="tarjeta" name="tarjeta" placeholder="1111-2222-3333-4444" required class="campo-dato"> 
+              <label for="" class="etiqueta-campo">Fecha de caducidad:</label>
+              <input type="text" id="caducidad" name="caducidad" placeholder="MM/AA" required class="campo-dato"> 
+              <label for="" class="etiqueta-campo">Código de seguridad:</label> 
+              <input type="text" id="cvv" name="cvv" placeholder="123" pattern="\d{3}" maxlength="3" required class="campo-dato"> 
+              <div id="contboton"><button type="submit" class="boton-enviar">Pagar</button> </div>
+          </form>
+      </div>
+    </section>
+    </main>
+
+
+    <footer>
+      <img src="/img/logo.jpeg" alt="Logo de la plataforma" class="footer-logo">
+      <div class="footer-text">© 1996-2023 Practsy.com, Inc. o sus afiliados</div>
+      <div class="footer-social">
+        <a href="^3^"><i class="fa fa-facebook-f"></i></a>
+        <a href="^4^"><i class="fa fa-twitter"></i></a>
+        <a href="^5^"><i class="fa fa-instagram"></i></a>
+      </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
